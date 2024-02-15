@@ -33,3 +33,47 @@ button {
     color: #8b8e99;
   }
 }
+.wd {
+  width: 1600px;
+  input {
+    display: block;
+    border: solid 0.1px gray;
+    width: 430px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
+
+.nm {
+  color: black;
+}
+.modal-dialog {
+  .modal-content {
+    .modal-footer {
+      .kd {
+        display: block;
+        width: 430px;
+        margin: 0 auto;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 80px;
+      }
+    }
+    .modal-header {
+      h1 {
+        color: black;
+        margin: 0 auto;
+        font-size: 30px;
+        padding-bottom: 10px;
+      }
+    }
+    .sms {
+      color: black;
+      font-size: 20px;
+      margin: 0 auto;
+    }
+  }
+}
