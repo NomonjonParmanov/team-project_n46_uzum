@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+}
+header {
+  background-color: #f2f4f7;
+}
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+button {
+  border: none;
+}
+
+.first_nav {
+  display: flex;
+  gap: 135px;
+  h1 {
+    color: #8b8e99;
+  }
+}
