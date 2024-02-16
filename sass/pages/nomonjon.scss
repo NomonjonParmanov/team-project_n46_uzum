@@ -1,0 +1,70 @@
+section {
+  h1 {
+    color: rgb(0, 0, 0);
+  }
+  p {
+    color: gray;
+  }
+  select {
+    width: 300px;
+    padding: 6px;
+    padding-left: 100px;
+  }
+}
+
+.map {
+  display: flex;
+  .scrol {
+    height: 600px;
+    overflow: auto;
+    width: 600px;
+    h4 {
+      font-size: 27px;
+    }
+    .icon {
+      display: flex;
+      gap: 10px;
+      p {
+        width: 400px;
+        margin: 5px;
+      }
+    }
+  }
+}
+
+.ish {
+  h1 {
+    padding-top: 30px;
+    color: black;
+  }
+  p {
+    color: gray;
+    padding-bottom: 20px;
+    width: 700px;
+  }
+  button {
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  .pi {
+    color: gray;
+    padding-bottom: 0px;
+  }
+  .pre1 {
+    pre {
+      margin-top: -20px;
+    }
+  }
+  .pre {
+    margin-top: -40px;
+    pre {
+      margin-top: -20px;
+    }
+  }
+  .link {
+    padding: 0;
+    margin: 0;
+    color: black;
+  }
+}
