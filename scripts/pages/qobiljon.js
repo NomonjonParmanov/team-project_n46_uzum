@@ -1,5 +1,5 @@
 let slideIndex = 0;
-const slides = document.querySelectorAll('.carousel-item');
+const slides = document.querySelectorAll(".carousel-item");
 const totalSlides = slides.length;
 
 function showSlide(n) {
@@ -10,7 +10,9 @@ function showSlide(n) {
     slideIndex = totalSlides - 1;
   }
   const offset = slideIndex * -100;
-  document.querySelector('.carousel').style.transform = `translateX(${offset}%)`;
+  document.querySelector(
+    ".carousel"
+  ).style.transform = `translateX(${offset}%)`;
 }
 
 function prevSlide() {
@@ -23,4 +25,6 @@ function nextSlide() {
 
 showSlide(slideIndex);
 
-let slide = document.querySelector()
+let slide = document.querySelector();
+
+
