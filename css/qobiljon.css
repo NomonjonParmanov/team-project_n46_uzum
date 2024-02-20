@@ -1,0 +1,78 @@
+.carousel-container {
+  width: 1350px;
+  height: 450px;
+  border: 1px solid;
+  border: none;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  border-radius: 10px;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 1;
+}
+
+.prev {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(169, 120, 242);
+  left: 16px;
+  border-radius: 100%;
+}
+
+.next {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(169, 120, 242);
+  right: 16px;
+  border-radius: 100%;
+}
+
+#backToTopBtn {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: none;
+  position: fixed;
+  top: 90%;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.p1 {
+  font-size: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
