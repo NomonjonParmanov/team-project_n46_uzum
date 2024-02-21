@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-button {
+.button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -71,7 +71,7 @@ html {
   scroll-behavior: smooth;
 }
 
-a {
+.a {
   color: white;
   list-style-type: none;
   text-decoration: none;
