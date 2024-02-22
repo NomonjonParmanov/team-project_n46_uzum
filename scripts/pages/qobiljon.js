@@ -25,6 +25,5 @@ function nextSlide() {
 
 showSlide(slideIndex);
 
-let slide = document.querySelector();
 
 
