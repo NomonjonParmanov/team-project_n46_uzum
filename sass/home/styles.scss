@@ -1,3 +1,5 @@
+@import "../../css/qobiljon.css";
+
 * {
   padding: 0;
   margin: 0;
@@ -74,6 +76,34 @@ button {
       color: black;
       font-size: 20px;
       margin: 0 auto;
+    }
+  }
+}
+
+.third_nav {
+  display: flex;
+  text-align: center;
+  margin-top: -70px;
+  a {
+    color: black;
+    transition: 0.5s;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .icon2 {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+  }
+  .icon {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin-left: -30px;
+    img {
+      width: 30px;
     }
   }
 }
